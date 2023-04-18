@@ -1,0 +1,146 @@
+@import "_fonts.css";
+
+.section-title{
+    font-size: var(--fs-md);
+}
+
+.text-black{color: var(--clr-d-gray);}
+
+.title-mdl{
+    color: var(--clr-d-gray);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-med);
+}
+
+.text-xsm{
+    color: var(--clr-d-gray);
+    font-size: var(--fs-xsm);
+}
+
+.text-md-yellow{
+    color: var(--clr-yellow);
+    font-size: var(--fs-md);
+}
+
+.text-md-gray{
+    color: var(--clr-d-gray);
+    font-size: var(--fs-md);
+}
+
+.card-text-title{
+    font-weight: var(--fw-med);
+    font-size: var(--fs-mdl);
+    color: var(--clr-d-gray);
+    font-style: italic;
+}
+
+
+.recipe-title{
+    font-weight: var(--fw-med);
+    font-size: var(--fs-mdxl);
+    color: var(--clr-d-gray);
+    font-style: italic;
+}
+
+.body-recipe-text{
+    font-size: var(--fs-xsm);
+    color: var(--clr-d-gray);
+    font-style: normal;
+}
+
+.ingredients-text{
+    font-size: var(--fs-sm);
+    color: var(--clr-d-gray);
+    margin-right: var(--spacer-xsm);
+    font-style: normal;
+}
+
+.text-ing{
+    font-size: var(--fs-sm);
+    color: var(--clr-d-gray);
+    font-weight: var(--fw-med);
+    padding-left: 0.5rem;
+}
+
+
+.data-text-rg{
+    font-size: var(--fs-rg);
+    padding: var(--spacer-sm);
+    padding-left: var(--spacer-md);
+}
+.data-txt-rg{
+    font-size: var(--fs-rg);
+    padding: var(--spacer-sm);
+}
+
+.data-icon-rg{
+    font-size: var(--fs-rg);
+    margin-right: 1rem;
+}
+
+.text-rg-gray{
+    color: var(--clr-d-gray);
+    font-size: var(--fs-rg);
+}
+
+.ff-lato{
+    font-family: var(--ff-Lato);
+}
+
+.ff-NotoSerif{
+    font-family: var(--ff-NotoSerif);
+}
+
+.btn-icon{
+    color: var(--clr-white);
+    font-size: var(--fs-mdl);
+}
+
+.xlg-title{
+    font-size: var(--fs-xlg);
+}
+
+.mdl-title{
+    font-size: var(--fs-mdl);
+}
+
+.link-trans{
+    font-size: var(--fs-xsm);
+    opacity: 100%;
+}
+
+.link-trans:hover{
+    font-size: var(--fs-sm);
+    opacity: 50%;
+}
+.link-trans:hover::after{
+    font-size: var(--fs-xsm);
+    opacity: 100%;
+ }
+
+
+
+ .link-social-media{
+    font-size: var(--fs-xsm);
+    opacity: 100%;
+}
+
+.link-social-media:hover{
+    font-size: var(--fs-rg);
+    opacity: 50%;
+}
+.link-social-media:hover::after{
+    font-size: var(--fs-xsm);
+    opacity: 100%;
+ }
+
+ .txt-terms{
+    color: var(--clr-d-gray);
+ }
+
+.txt-filters{
+    color: var(--clr-white);
+    font-weight: var(--fw-med);
+    font-size: var(--fs-rg);
+    font-style: normal;
+}

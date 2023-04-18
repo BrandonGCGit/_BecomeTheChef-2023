@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.division-top{
+    border-top: .10rem solid var(--clr-d-gray);
+    padding: var(--spacer-smd);   
+}
+
+.division-bottom{
+    border-bottom: .10rem solid var(--clr-d-gray); 
+    padding: var(--spacer-smd);  
+}
+
+.btn-curve-yellow{
+    background: var(--clr-yellow);
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 100%;
+    border:none;
+}
+
+.btn-curve-yellow:hover{
+    background: var(--clr-d-gray);
+}
+
+.btn-curve-gray{
+    background-color: var(--clr-white);
+}
+
+.btn-curve-gray:hover{
+    background: var(--clr-yellow);
+}
+
+.arrow-icon{
+    transform: scale(1);
+}
+
+.arrow-icon:hover{
+    transform: scale(1.5);
+}
+
+#accordion-header-yellow{
+    border-color: var(--clr-yellow);
+    background: var(--clr-yellow);
+    box-shadow: none;
+}
+
+.btn-icon{
+    /*margin-right: 3px;
+    margin-top: 3px;
+    padding: 3px;*/
+    width: var(--fs-md);
+    height: var(--fs-md);
+    border: none;
+}
+
+.buttons-order{
+    display: flex;
+}
+
+.bg-gray{
+    background-color: var(--clr-a-gray);
+    border-color: var(--clr-d-gray);
+}
+.no-border{
+    border: none;
+}
+
+.only-a-border{
+    border-left: none;
+    border-right:none;
+    border-top: none;
+}
+
+.like-btn{
+    list-style: none;
+    text-decoration: none;
+    color: var(--clr-black);
+}
+
+.no-decorations-link{
+    list-style: none;
+}
+
+.icon-line-height{
+    line-height: 1.5rem;
+}
+
+.prueba-black{
+    background-color: var(--clr-black);
+}
+
+
+.prueba-prueba{
+    background: url(../img/img-registroReceta.png);
+    background-size: contain;
+    /*background-repeat: repeat-y;*/
+}
+
+.img-w10{
+    width: 15%;
+}
+
+.filters-bg{
+    background-color: var(--clr-yellow);
+    size: 1.5rem;
+    border-radius: 5%;
+}
+
+.align-card-body{
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-left: 1.50rem; 
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 1rem;
+}
+
+
