@@ -1,5 +1,5 @@
 # Ignora la carpete img
-./img
+/img
 # Ignora el archivo db.php
 /_proyecto_Web-BecomeTheChef/php/db.php
 # Ignora la parte de WS
